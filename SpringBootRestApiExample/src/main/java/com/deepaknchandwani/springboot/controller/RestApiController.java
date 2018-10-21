@@ -68,7 +68,7 @@ public class RestApiController {
 	    return new ResponseEntity<>(httpHeaders, HttpStatus.SEE_OTHER);
 	}
 	
-	@RequestMapping(value = "/usa/", method = RequestMethod.POST , produces={ MediaType.APPLICATION_XML_VALUE})
+	@RequestMapping(value = "/twilio/", method = RequestMethod.POST , produces={ MediaType.APPLICATION_XML_VALUE})
 	public String getTwillioResponse(@RequestParam("name") String name) { 
 		
 	/*	  Say say1 = new Say.Builder(" Jay Shree Ram! Happy Dusshera! Jay Shree Ram! Happy Dusshera!, Dear "+name + 

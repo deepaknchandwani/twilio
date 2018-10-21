@@ -13,14 +13,20 @@ public class VoiceCallFromGetResource {
 	    
   public static void main(String[] args) throws URISyntaxException  {
 	  
-	   pushMessage();  }
+	   pushMessage("+19174634744" , "+19174634744");  }
 
 
-public static void pushMessage() throws URISyntaxException {
+public static void pushMessage( String to , String from) throws URISyntaxException {
 	Twilio.init(AES.ACCOUNT_SID, AES.AUTH_TOKEN);
 
 	    Call call = Call
 				        .creator(
+				        		
+				        		
+				        		
+				        		new PhoneNumber(to),
+			        			new PhoneNumber(from),
+				        		
 				        			/*new PhoneNumber("+15164020450"), 
 				        			new PhoneNumber("+19173302704"),*/ 
 				        			
@@ -34,8 +40,8 @@ public static void pushMessage() throws URISyntaxException {
 				        		/*new PhoneNumber("+917217796853"), 
 			        			new PhoneNumber("+919167187479"),*/
 			        			
-				        		new PhoneNumber("+19174634744"),
-			        			new PhoneNumber("+919167187479"),
+//				        		new PhoneNumber("+19174634744"),
+//			        			new PhoneNumber("+919167187479"),
 				        		
 				        		
 			        			
