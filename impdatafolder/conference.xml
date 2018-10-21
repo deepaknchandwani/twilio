@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+  <Dial>
+    <Conference waitUrl="https://a5f6060b.ngrok.io/vishnuxmlNavratri1.xml" >Room 1234</Conference>
+  </Dial>
+</Response>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+<Say voice="woman" ><prosody rate="slow">
+Greetings from Vishnu Mishra
+</prosody></Say>
+<Pause length="1"/>
+<Say voice="alice"><prosody rate="slow">
+Greetings and Wish You A Very Very Happy Navratri from Vishnu Mishra, in Mumbai. I specialize in broadcasting voice messages for any Business, like Jewelers, Builders, Dressers and can
+help you in increasing your business potential in any part of the world, specilize in United States and India, please call me or text me.
+</prosody></Say> 
+<Say voice="man"><prosody rate="10%" volume="loud" pitch="200%" >
+Email me at ,  v i s h n u m i s h r , Call me at my india mobile 9 1 6 7 1 8 7 4 7 9  , and thanks for Listening
+</prosody></Say>
+ <Hangup/>
+</Response>

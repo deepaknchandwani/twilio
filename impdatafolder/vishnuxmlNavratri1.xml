@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+<Say voice="alice" ><prosody rate="slow">
+This is Morning Message For Vishnu Mishra
+</prosody></Say>
+<Pause length="1"/>
+<Say voice="alice"><prosody rate="slow">
+This is Good Morning Message For Vishnu Mishra at 5 am 17 minutes, Now this is mumbai  news for you
+from Times of India: Breaking news, views, reviews, cricket from across India
+1. MeToo: 20 women offer to testify against Akbar
+2. Congress, BJP now equal in Goa as 2 MLAs quit
+3. Apple allows DND app, but bars call logs
+4. Alia in New York to meet Ranbir and family?
+5.Taimur tells paparazzi his name is ‘Tim’. 
+</prosody></Say> 
+<Say voice="alice"><prosody rate="10%" volume="loud" pitch="200%" >
+Dear Vishnu Mishra have a very good morning and a wonderful day  , and thanks for Listening
+</prosody></Say>
+ <Hangup/>
+</Response>
+
+ 

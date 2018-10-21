@@ -1,0 +1,11 @@
+
+Local setup 
+put node-module in path
+add java
+set PATH=d:\node10\node-v10.10.0-win-x64\node_modules;d:\node10\node-v10.10.0-win-x64;d:\Java\jdk1.8.0_171\bin;%PATH%;
+
+This will install it in http-server in the directory in the respective folder 
+npm install http-server --save
+node node_modules\http-server\bin\http-server -p 3500
+
+mpm install twilio

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+<Say voice="man" ><prosody rate="slow">
+Important Message
+</prosody></Say>
+<Pause length="1"/>
+<Say voice="alice"><prosody rate="10%" pitch="high" >
+Important Message From Mukesh Matai
+</prosody></Say>
+<Pause length="1"/>
+<Say voice="man"><prosody rate="slow">
+At We Care, we are focused on providing your family with the most qualified trustworthy and experienced candidate,
+specialist available We accomplish this through extensive interviewing, and diligent screening.
+which is the foundation of our Standard Screening Process Positions .
+we place Baby, sitters, Nanny, Housekeeper, Waiter, Host, Dish washer, Cashier, Front Desk, Cooks, Elderly caregivers, at flexible times.
+ </prosody></Say>
+<Pause length="1"/>
+<Say voice="man"><prosody rate="10%" volume="loud" pitch="200%" >
+Email us at ,  m a t a i m o n t y@gmail.com , Call Us at 5 1 6 4 0 2 0 4 5 0, and thanks for Listening
+</prosody></Say>
+ <Hangup/>
+</Response>
